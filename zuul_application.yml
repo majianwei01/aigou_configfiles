@@ -42,4 +42,4 @@ zuul:
   ignored-services: "*"
   routes:
     plat.serviceId: plat-service
-    plat.path: /plat/**
+    plat.path: /store/**
