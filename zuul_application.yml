@@ -21,8 +21,8 @@ zuul:
   prefix: "/aigou"
   ignored-services: "*"
   routes:
-    store.serviceId: plat-service
-    store.path: /store/**
+    product.serviceId: product-service
+    product.path: /product/**
 
 ---
 server:
@@ -42,5 +42,5 @@ zuul:
   prefix: "/aigou"
   ignored-services: "*"
   routes:
-    plat.serviceId: plat-service
-    plat.path: /store/**
+    product.serviceId: product-service
+    product.path: /product/**
