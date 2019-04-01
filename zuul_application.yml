@@ -23,6 +23,8 @@ zuul:
   routes:
     product.serviceId: product-service
     product.path: /product/**
+    product.serviceId: common-service
+    product.path: /product/**
 
 ---
 server:
@@ -43,4 +45,6 @@ zuul:
   ignored-services: "*"
   routes:
     product.serviceId: product-service
+    product.path: /product/**
+    product.serviceId: common-service
     product.path: /product/**
