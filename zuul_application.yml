@@ -23,8 +23,8 @@ zuul:
   routes:
     product.serviceId: product-service
     product.path: /product/**
-    product.serviceId: common-service
-    product.path: /product/**
+    common.serviceId: common-service
+    common.path: /common/**
 
 ---
 server:
@@ -46,5 +46,5 @@ zuul:
   routes:
     product.serviceId: product-service
     product.path: /product/**
-    product.serviceId: common-service
-    product.path: /product/**
+    common.serviceId: common-service
+    common.path: /common/**
